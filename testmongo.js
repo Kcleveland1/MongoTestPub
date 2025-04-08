@@ -6,7 +6,7 @@ const uri = "mongodb+srv://kcleveland33:zeOV7flkegKuo58y@cluster0.r1pwnq0.mongod
 // --- This is the standard stuff to get it to work on the browser
 const express = require('express');
 const app = express();
-const port = 5000;
+const port = 3000;
 app.listen(port);
 console.log('Server started at http://localhost:' + port);
 
